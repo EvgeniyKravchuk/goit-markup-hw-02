@@ -54,16 +54,17 @@
   color: #2196f3;
 }
 
-.adress-list-link {
+.address-list-link {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: #757575;
 }
-.adress-list-link:hover,
-.adress-list-link:focus {
+.address-list-link:hover,
+.address-list-link:focus {
   color: #2196f3;
 }
 /*================END HEADER================*/
@@ -155,7 +156,7 @@
   color: #2196f3;
 }
 
-.footer-adress-list-map {
+.footer-address-list-map {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -165,7 +166,7 @@
   color: #ffffff;
 }
 
-.footer-adress-list-link {
+.footer-address-list-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
