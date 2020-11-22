@@ -1,6 +1,168 @@
 :root {
+  --main-text-color: #757575;
+  --active-color: #2196f3;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 }
 
+body {
+  font-family: var(--main-font);
+  color: #212121;
+}
+
+/*%%%%%%%%%%%%%%%%%--INDEX.HTML--%%%%%%%%%%%%%%%%%*/
+/*================РАЗНОЕ================*/
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*================РАЗНОЕ================*/
+
+/*================HEADER================*/
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-item {
+  color: var(--active-color);
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--active-color);
+}
+
+.address-list-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--active-color);
+}
+/*================END HEADER================*/
+
+/*================HERO================*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+  background-color: var(--active-color);
+}
+/*================END HERO================*/
+/*================MAIN SECTION================*/
+.main-section-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.main-section-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/*================END MAIN SECTION================*/
+/*================ABOUT ME SECTION================*/
+
+/*================END ABOUT ME SECTION================*/
+/*================MY TEAM SECTION================*/
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.employee-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/*================END MY TEAM SECTION================*/
+/*================FOOTER SECTION================*/
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-logo-item {
+  color: var(--active-color);
+}
+
+.footer-address-list-map {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-address-list-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*================END FOOTER SECTION================*/
+/*%%%%%%%%%%%%%%%%%--END INDEX.HTML--%%%%%%%%%%%%%%%%%*/
+
+/*%%%%%%%%%%%%%%%%%--PORTFOLIO.HTML--%%%%%%%%%%%%%%%%%*/
 /*================ВИЗУАЛЬНО СКРЫТЫЙ ЗАГОЛОВОК===================*/
 .visually-hidden {
   position: absolute;
@@ -12,167 +174,39 @@
   border: 0;
   clip: rect(0, 0, 0, 0);
 }
-/*================РАЗНОЕ================*/
-.title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
+
+/*================BUTTON================*/
+.list-button {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
-/*================РАЗНОЕ================*/
 
-/*================HEADER================*/
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
+.list-button:hover,
+.list-button:focus {
+  color: #ffffff;
+  background-color: var(--active-color);
+}
+/*================END BUTTON================*/
+/*================PORTFOLIO LIST================*/
+.portfolio-list-title {
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: #000000;
-}
-
-.logo-item {
-  color: #2196f3;
-}
-
-.nav-list-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.nav-list-link:hover,
-.nav-list-link:focus {
-  color: #2196f3;
-}
-
-.address-list-link {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-.address-list-link:hover,
-.address-list-link:focus {
-  color: #2196f3;
-}
-/*================END HEADER================*/
-
-/*================HERO================*/
-.hero-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  text-align: center;
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
-.hero-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+.portfolio-list-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-
-  background-color: #2196f3;
-}
-/*================END HERO================*/
-/*================MAIN SECTION================*/
-.main-section-list-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.142;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+  color: var(--main-text-color);
 }
+/*================END PORTFOLIO LIST================*/
 
-.main-section-list-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-/*================END MAIN SECTION================*/
-/*================ABOUT ME SECTION================*/
-
-/*================END ABOUT ME SECTION================*/
-/*================MY TEAM SECTION================*/
-.employee-name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.employee-position {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-/*================END MY TEAM SECTION================*/
-/*================FOOTER SECTION================*/
-.footer {
-  background-color: #2f303a;
-}
-
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
-.footer-logo-item {
-  color: #2196f3;
-}
-
-.footer-address-list-map {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
-.footer-address-list-link {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-/*================END FOOTER SECTION================*/
+/*%%%%%%%%%%%%%%%%%--END PORTFOLIO.HTML--%%%%%%%%%%%%%%%%%*/
